@@ -1,6 +1,6 @@
 export enum Social {
   Email = "Email",
   Telegram = "Telegram",
-  Skype = "Skype",
+  X = "X",
   Discord = "Discord,",
 }

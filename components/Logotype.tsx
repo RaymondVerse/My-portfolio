@@ -15,10 +15,10 @@ export const Logotype: FC<Props> = ({ className, ...rest }) => {
           style={{ display: "inline-block", marginRight: "10px" }}
         />
         <span className="">[</span>
-        <span className="">kozato</span>
+        <span className="">Raymond</span>
         <span className="">]</span>
       </span>{" "}
-      <span className="">keizo</span>{" "}
+      <span className="">honam</span>{" "}
       <span className="text-accent font-bold">.</span>
     </div>
   );

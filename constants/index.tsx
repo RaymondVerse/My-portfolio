@@ -4,13 +4,15 @@ import {
   RiDiscordLine,
   RiEarthLine,
   RiMailLine,
+  RiSkypeLine,
   RiTelegramLine,
+  RiXboxLine,
 } from "react-icons/ri";
 import { Social } from "@/types";
 
 export const WEBSITE = {
-  name: "Kozato Keizo",
-  author: "Kozato Keizo",
+  name: "Raymond Honam",
+  author: "Raymond Honam",
   tagline: "Full-Stack Dev, Technical Lead, Smart Contract Engineer",
   description:
     "Full-Stack Dev, Technical Lead, Smart Contract Engineer. Turning dreams into reality.",
@@ -27,25 +29,25 @@ export const SOCIALS: Record<
     name: "Email",
     title: `Email ${WEBSITE.author}`,
     icon: RiMailLine,
-    link: "mailto:keizokozato@gmail.com",
+    link: "mailto:raymondhonam@gmail.com",
   },
   [Social.Telegram]: {
     name: "Telegram",
     title: `${WEBSITE.author} on Telegram`,
     icon: RiTelegramLine,
-    link: "https://t.me/bluesky0924",
+    link: "https://t.me/@raymond0305",
   },
-  [Social.Skype]: {
-    name: "Skype",
-    title: `${WEBSITE.author} on Skype`,
-    icon: PiSkypeLogo,
+  [Social.X]: {
+    name: "X",
+    title: `${WEBSITE.author} on X`,
+    icon: RiSkypeLine,
     link: "https://join.skype.com/invite/wv3LtuPxDeQu",
   },
   [Social.Discord]: {
     name: "Discord",
     title: `${WEBSITE.author} on Discord`,
     icon: RiDiscordLine,
-    link: "https://discord.com/users/1315381749827506196",
+    link: "https://discord.com/channels/@me/1375316926397681664",
   },
 };
 
